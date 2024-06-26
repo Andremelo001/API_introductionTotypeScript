@@ -3,7 +3,8 @@
     "url": "postgresql://docker:ignite@localhost:5432/rentx",
     "entities": [
         "./src/modules/cars/infra/typeorm/entities/*.ts",
-        "./src/modules/accounts/infra/typeorm/entities/*.ts"
+        "./src/modules/accounts/infra/typeorm/entities/*.ts",
+        "./src/modules/rentals/infra/typeorm/entities/*.ts"
       ],
     "migrations": [
         "./src/shared/infra/typeorm/migrations/*.ts"
